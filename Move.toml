@@ -1,0 +1,15 @@
+[package]
+name = "Patient-Consent-Management"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule= "0x8de9afeb4118e1e92d69f507c09d12b185e1f98147124ee65ad0b753dace4f66"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
